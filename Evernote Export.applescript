@@ -18,5 +18,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 tell application "Evernote"
 	set homepath to path to home folder as Unicode text
 	set allmynotes to find notes
-	export allmynotes to (homepath & "Documents:Evernote.enex" as Unicode text)
+	export allmynotes to (homepath & "Documents:Evernote.enex" as Unicode text) with tags
 end tell
