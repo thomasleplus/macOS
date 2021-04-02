@@ -1,6 +1,8 @@
 on run argv
 	tell application "Evernote"
-		repeat with aNote in find notes
+		synchronize
+		set theNotes to find notes
+		repeat with aNote in theNotes
 			set oldTitle to title of aNote as string
 			-- let's escape single quotes
 			set delim to AppleScript's text item delimiters
@@ -18,5 +20,7 @@ on run argv
 				set title of aNote to newTitle
 			end if
 		end repeat
+		synchronize
+		quit
 	end tell
 end run
