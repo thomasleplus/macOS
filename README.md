@@ -1,5 +1,6 @@
-# macosx
-Useful tidbits for Mac OS X
+# macOS
+
+Useful tidbits for macOS
 
 ## `.emacs`
 
@@ -18,3 +19,15 @@ This script applies sed commands to all my notes' titles. You should use the `os
 This plist file can be used to mount all your favorited TrueCrypt images on login. Simply put that file in your `~/Library/LaunchAgents/` folder and then load it using the following command:
 
 `$ launchctl load ~/Library/LaunchAgents/org.truecrypt.auto-mount-favorites.plist`
+
+## `kext-switch`
+
+The kernel extensions of VirtualBox and macFUSE / OSXFuse sometimes conflict
+with each other. This script allows you to choose which one you want
+to run using the following commands:
+
+`$ kext-swtich fuse`
+`$ kext-swtich vbox`
+`$ kext-swtich status`
+
+Shamelessly inspired of https://github.com/osxfuse/osxfuse/issues/315#issuecomment-271548072
