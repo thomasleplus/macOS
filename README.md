@@ -6,11 +6,11 @@ Useful tidbits for macOS
 
 This is my usual Emacs configuration file. Most options are commented with a short explanation.
 
-## [Evernote Export](Evernote Export.applescript)
+## [Evernote Export](Evernote%20Export.applescript)
 
 I use this very simple AppleScript to export my Evernote notes nightly before my computer backs itself up. It is a source file but you can use Script Editor to turn it into an executable script.
 
-## [Evernote Sed](Evernote Sed.applescript)
+## [Evernote Sed](Evernote%20Sed.applescript)
 
 This script applies sed commands to all my notes' titles. You should use the `osascript` command to invoke this script from the command line.
 
