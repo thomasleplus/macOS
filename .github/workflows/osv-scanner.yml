@@ -15,9 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Set up Go
-      uses: actions/setup-go@v3
+      uses: actions/setup-go@v5
+      with:
+        go-version: '>=1.21.0'
     - name: Install OSV Scanner
       run: go install github.com/google/osv-scanner/cmd/osv-scanner@v1
     - name: OSV Scanner
