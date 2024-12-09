@@ -10,15 +10,21 @@ This is my usual Emacs configuration file. Most options are commented with a sho
 
 I use this very simple AppleScript to export my Evernote notes nightly before my computer backs itself up. It is a source file but you can use Script Editor to turn it into an executable script.
 
+**Support for AppleScript was removed in Evernote 10. Overall Evernote has been plagued with bugs and is overpriced as a result so I have since moved to [Joplin](https://joplinapp.org).**
+
 ## [Evernote Sed](Evernote%20Sed.applescript)
 
 This script applies sed commands to all my notes' titles. You should use the `osascript` command to invoke this script from the command line.
+
+**Support for AppleScript was removed in Evernote 10. Overall Evernote has been plagued with bugs and is overpriced as a result so I have since moved to [Joplin](https://joplinapp.org).**
 
 ## [TrueCrypt Auto-mount Favorites](org.truecrypt.auto-mount-favorites.plist)
 
 This plist file can be used to mount all your favorited TrueCrypt images on login. Simply put that file in your `~/Library/LaunchAgents/` folder and then load it using the following command:
 
 `$ launchctl load ~/Library/LaunchAgents/org.truecrypt.auto-mount-favorites.plist`
+
+**TrueCrypt is discontinued so I have migrated to [VeraCrypt](https://www.veracrypt.fr). There is an easier way to do this with VeraCrypt, simply configure macOS to open the encrypted file [on login](https://support.apple.com/en-us/guide/mac-help/mh15189/mac)**
 
 ## [kext-switch](kext-switch)
 
