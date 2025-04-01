@@ -34,7 +34,7 @@ hs_err_pid*
 *.bak
 *~
 
-# OSX
+# macOS
 # =========================
 
 .DS_Store

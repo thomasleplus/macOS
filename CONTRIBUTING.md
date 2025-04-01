@@ -4,7 +4,7 @@
 
 If you have found a bug, want to request an enhancement or simply ask
 a question, feel free to open an
-[issue](https://github.com/thomasleplus/macosx/issues/new/choose).
+[issue](https://github.com/thomasleplus/macOS/issues/new/choose).
 
 For security-related issues, please see our [security policy](/SECURITY.md).
 
