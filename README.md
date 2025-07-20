@@ -20,7 +20,7 @@ This script applies sed commands to all my notes' titles. You should use the `os
 
 ## [TrueCrypt Auto-mount Favorites](org.truecrypt.auto-mount-favorites.plist)
 
-This plist file can be used to mount all your favorited TrueCrypt images on login. Simply put that file in your `~/Library/LaunchAgents/` folder and then load it using the following command:
+This plist file can be used to mount all your favorited TrueCrypt images on login. Simply put that file in your `~/Library/LaunchAgents/` directory and then load it using the following command:
 
 `$ launchctl load ~/Library/LaunchAgents/org.truecrypt.auto-mount-favorites.plist`
 
