@@ -36,4 +36,4 @@ to run using the following commands:
 `$ kext-swtich vbox`
 `$ kext-swtich status`
 
-Shamelessly inspired of https://github.com/osxfuse/osxfuse/issues/315#issuecomment-271548072
+Shamelessly inspired of [https://github.com/osxfuse/osxfuse/issues/315#issuecomment-271548072](https://github.com/osxfuse/osxfuse/issues/315#issuecomment-271548072).
